@@ -1,6 +1,6 @@
-import AppHeader from './AppHeader'
-import AppMain from './AppMain'
-import AppFooter from './AppFooter'
+import AppHeader from './components/AppHeader'
+import AppMain from './components/AppMain'
+import AppFooter from './components/AppFooter'
 import './App.css'
 
 
