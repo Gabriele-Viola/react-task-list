@@ -1,7 +1,7 @@
-const tasks = require('../database/tasks.js')
-console.log(tasks);
-
+import tasks from "../database/tasks";
 export default function AppMain() {
+
+    console.log(tasks);
 
     const currentTasks = tasks.filter(task => task.state !== "completed")
     const completeTasks = tasks.filter(task => task.state === "completed")

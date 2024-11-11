@@ -1,3 +1,4 @@
+
 const tasks = [
     {
         id: 1,
@@ -71,4 +72,4 @@ const tasks = [
     }
 ];
 
-module.exports = tasks
+export default tasks
