@@ -81,7 +81,7 @@ export default function AppMain() {
 
     return (
         <main>
-            <section>
+            <section className="current">
                 <h2>Current Tasks ({currentTasks.length})</h2>
                 <ul>
                     {currentTasks.map(task => <li key={task.id}>
@@ -97,7 +97,8 @@ export default function AppMain() {
                     )}
                 </ul>
             </section>
-            <section>
+            <hr />
+            <section className="complete">
                 <h2>Complete Tasks({completeTasks.length})</h2>
                 <ul>
                     {completeTasks.map(task => <li key={task.id}>
